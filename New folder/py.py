@@ -199,7 +199,7 @@ def tic_tac_toe():
 
             if check_winner(board, player):
                 print_board(board)
-                print(f"🎉 Player {player} wins! 🎉")
+                print(f" Player {player} wins! ")
                 break
             elif is_full(board):
                 print_board(board)
